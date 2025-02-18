@@ -4,7 +4,7 @@ import pandas as pd
 
 def load_model(model_name):
     if model_name == 'Logistic Regression':
-        model = pickle.load(open('models/no_resampling_svm_model.pkl', 'rb'))
+        model = pickle.load(open('no_resampling_svm_model.pkl', 'rb'))
 
        #melakukan prediksi
 def predict_attrition(model, data):
